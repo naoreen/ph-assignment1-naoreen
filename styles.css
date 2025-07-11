@@ -58,19 +58,51 @@ body {
   font-size: 2.2rem;
   margin-bottom: 1rem;
 }
-.action-content {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
+.action {
+  padding: 3rem 0;
 }
 
-.action .left {
-  flex: 1;
+.action-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+}
+
+.action .left, .action .right {
+  flex: 1 1 300px;
+}
+
+.action .left h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.action .left p {
+  margin-bottom: 1rem;
+  line-height: 1.5;
 }
 
 .action .right img {
   max-width: 100%;
   border-radius: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .action-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .action .left, .action .right {
+    width: 100%;
+  }
+
+  .action .left a {
+    display: inline-block;
+    margin-top: 1rem;
+  }
 }
 
 .users {
