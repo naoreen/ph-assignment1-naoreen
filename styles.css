@@ -18,7 +18,7 @@ body {
 }
 
 .navbar {
-  background: url('images/Hero-bg.png') center/cover no-repeat;
+  /*background: url('images/Hero-bg.png') center/cover no-repeat;*/
   padding: 1rem 0;
   color: white;
 }
@@ -93,4 +93,59 @@ body {
 .stats h4 {
   font-size: 2rem;
   color: #3d3dff;
+}
+
+.feedback {
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.review {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.review img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.review-text {
+  max-width: 500px;
+  text-align: left;
+}
+
+.contact-box {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.contact .left {
+  flex: 1;
+}
+
+.contact .right {
+  flex: 2;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input, textarea {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+  height: 100px;
 }
