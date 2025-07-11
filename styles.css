@@ -99,24 +99,33 @@ body {
   padding: 3rem 0;
   text-align: center;
 }
-
 .review {
   display: flex;
-  justify-content: center;
   align-items: center;
   gap: 1rem;
-  margin-top: 2rem;
+  margin: 1.5rem auto;
+  max-width: 700px;
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
 
 .review img {
   width: 60px;
   height: 60px;
   border-radius: 50%;
+  object-fit: cover;
 }
 
 .review-text {
-  max-width: 500px;
-  text-align: left;
+  flex: 1;
+}
+
+.review-text .stars {
+  width: 100px;
+  height: auto;
+  margin-bottom: 0.5rem;
 }
 
 .contact-box {
