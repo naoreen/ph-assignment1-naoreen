@@ -18,7 +18,7 @@ body {
 }
 
 .navbar {
-  background: url('assets/bg.jpg') center/cover no-repeat;
+  background: url('images/bg.jpg') center/cover no-repeat;
   padding: 1rem 0;
   color: white;
 }
@@ -32,4 +32,17 @@ body {
 .logo {
   font-size: 1.8rem;
   font-weight: bold;
+}
+
+.button {
+  background: #3d3dff;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.button:hover {
+  transform: scale(1.05);
 }
