@@ -18,9 +18,9 @@ body {
 }
 
 .navbar {
-  /*background: url('images/Hero-bg.png') center/cover no-repeat;*/
+  background: url('images/Hero-bg.png') center/cover no-repeat;
   padding: 1rem 0;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .navbar .container {
@@ -51,7 +51,7 @@ body {
   background: url('images/Hero-bg.png') center/cover no-repeat;
   text-align: center;
   padding: 5rem 0;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .banner h2 {
