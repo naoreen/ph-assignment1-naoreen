@@ -46,3 +46,29 @@ body {
 .button:hover {
   transform: scale(1.05);
 }
+
+.banner {
+  background: url('assets/bg.jpg') center/cover no-repeat;
+  text-align: center;
+  padding: 5rem 0;
+  color: white;
+}
+
+.banner h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+.action-content {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.action .left {
+  flex: 1;
+}
+
+.action .right img {
+  max-width: 100%;
+  border-radius: 10px;
+}
